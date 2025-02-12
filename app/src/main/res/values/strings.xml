@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BasicVideoPlayer</string>
+    <string name="error">error</string>
+    <string name="we_ran_into_some_issue_please_try_sometime_later">We ran into some issue, please try sometime later.</string>
 </resources>
