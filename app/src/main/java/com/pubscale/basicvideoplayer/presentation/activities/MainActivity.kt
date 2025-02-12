@@ -66,8 +66,12 @@ class MainActivity : AppCompatActivity() {
             player?.setMediaItem(mediaItem)
             player?.prepare()
             player?.playWhenReady = true
+
         } catch (e: Exception) {
             Log.e("Error", e.message.toString())
+            //hiding player if error on url
+            binding.playerView.visibility = View.GONE
+            binding.errorLayout.visibility = View.VISIBLE
         }
 
     }
